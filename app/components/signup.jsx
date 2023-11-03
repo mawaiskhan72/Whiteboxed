@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Avatar3 from '/Images/Avatar3.svg';
-import Footerimg from '/Images/Footerimg.png';
+import Footerimg from '/Images/footerimg.png';
 
 function signup() {
   return (

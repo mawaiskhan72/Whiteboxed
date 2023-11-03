@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Setting from "/public/Images/Setting.svg"
+import Setting from "/public/Images/setting.svg"
 import Mbl1 from "/public/Images/mbl1.svg"
 import Mbl2 from "/public/Images/mbl2.svg"
 import Dots from "/public/Images/Dots.png"
