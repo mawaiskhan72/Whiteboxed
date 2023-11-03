@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image';
-import Pipeline from '../Images/Pipeline.png';
-import Listing from '../Images/Listing.png';
-import Calendar from '../Images/Calendar.png';
-import Minuscircle from '../Images/Minuscircle.svg';
-import Pluscircle from '../Images/Pluscircle.svg';
+import Pipeline from '../../public/Images/Pipeline.png';
+import Listing from '../../public/Images/Listing.png';
+import Calendar from '../../public/Images/Calendar.png';
+import Minuscircle from '../../public/Images/Minuscircle.svg';
+import Pluscircle from '../../public/Images/Pluscircle.svg';
 
 function Dashboard() {
   return (

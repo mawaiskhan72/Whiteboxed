@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import Propertiesimg1 from '../Images/propertiesimg1.svg';
-import Propertiesimg2 from '../Images/propertiesimg2.svg';
-import whitebox from '../Images/whitebox.png';
-import Macbook from '../Images/Macbook.png';
+import Propertiesimg1 from '../../public/Images/propertiesimg1.svg';
+import Propertiesimg2 from '../../public/Images/propertiesimg2.svg';
+import whitebox from '../../public/Images/whitebox.png';
+import Macbook from '../../public/Images/Macbook.png';
 
 function Properties() {
   return (

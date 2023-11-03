@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import Setting from "../Images/Setting.svg"
-import Mbl1 from "../Images/mbl1.svg"
-import Mbl2 from "../Images/mbl2.svg"
-import Dots from "../Images/dots.png"
-import Attachpics from "../Images/attachpics.png"
-import Pen from "../Images/pen.svg"
+import Setting from "../../public/Images/Setting.svg"
+import Mbl1 from "../../public/Images/mbl1.svg"
+import Mbl2 from "../../public/Images/mbl2.svg"
+import Dots from "../../public/Images/Dots.png"
+import Attachpics from "../../public/Images/attachpics.png"
+import Pen from "../../public/Images/pen.svg"
 
 function Effortless() {
   return (
