@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Framefooter from "/public/Images/framefooter.png"
-import Social from "/public/Images/social.svg"
+import Social from "/public/Images/Social.svg"
 
 function Footer() {
   return (
