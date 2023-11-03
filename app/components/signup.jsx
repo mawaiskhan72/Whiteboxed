@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
-import Avatar3 from '../../public/Images/Avatar3.svg';
-import Footerimg from '../../public/Images/Footerimg.png';
+import Avatar3 from '/public/Images/Avatar3.svg';
+import Footerimg from '/public/Images/Footerimg.png';
 
-function signup() {
+function signu
   return (
 
     <div>

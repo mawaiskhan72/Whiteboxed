@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import HeaderLogo from "../../public/Images/headerlogo.svg"
-import Man1 from "../../public/Images/man1.svg"
-import Man2 from "../../public/Images/man2.svg"
-import Woman1 from "../../public/Images/woman1.svg"
-import Woman2 from "../../public/Images/woman2.svg"
+import HeaderLogo from "/public/Images/headerlogo.svg"
+import Man1 from "/public/Images/man1.svg"
+import Man2 from "/public/Images/man2.svg"
+import Woman1 from "/public/Images/woman1.svg"
+import Woman2 from "/public/Images/woman2.svg"
 
 function Header() {
   return (

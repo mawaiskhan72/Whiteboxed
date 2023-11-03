@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import PC from "../../public/Images/pc.svg"
-import Addsign from "../../public/Images/addsign.png"
-import Wimage from "../../public/Images/w.svg.svg"
-import Image1 from "../../public/Images/image1.svg"
-import Image2 from "../../public/Images/image2.svg"
-import Image3 from "../../public/Images/image3.svg"
-
+import PC from "/public/Images/pc.svg"
+import Addsign from "/public/Images/addsign.png"
+import Wimage from "/public/Images/w.svg.svg"
+import Image1 from "/public/Images/image1.svg"
+import Image2 from "/public/Images/image2.svg"
+import Image3 from "/public/Images/image3.
 
 function Market() {
   return (
