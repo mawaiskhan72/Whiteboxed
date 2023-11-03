@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import Avatar3 from '/Images/Avatar3.svg';
-import Footerimg from '/Images/footerimg.png';
+import Avatar from '/public/Images/avatar.svg';
+import Footerimg from '/public/Images/footerimg.png';
 
 function signup() {
   return (
@@ -12,7 +12,7 @@ function signup() {
 
 <div>
       <div className='pl-72 pr-10 pb-6'>
-        <Image src={Avatar3} />
+        <Image src={Avatar  } />
         </div>
     <div>
     <p className="text-center text-dark fs-6 fw-medium font-family-Poppins font-semibold text-[22px] pb-2">Still have questions?</p>
