@@ -11,11 +11,11 @@ function Market() {
   return (
     <div>
 
-      <div className="position-relative flex justify-center pt-60 gap-32">
+      <div className="position-relative md:flex justify-center pt-60 md:gap-2 xl:gap-32 lg:gap-32">
 
       <div className="relative">
-    <Image className='w-[620px] relative' src={PC} />
-    <div className="absolute top-28 right-52 rounded-[35px] w-[430px] bg-[rgba(255,255,255,0.92)] flex items-center shadow-lg">
+    <Image className='w-[620px]  relative' src={PC} />
+    <div className="absolute  top-28 md:hidden  right-52 rounded-[35px] w-[430px] bg-[rgba(255,255,255,0.92)] flex items-center shadow-lg">
         <Image src={Wimage} />
         <div>
             <p className="font-family-Poppins text-[#d76d3f]">

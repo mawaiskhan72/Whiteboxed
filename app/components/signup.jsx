@@ -6,7 +6,7 @@ import Footerimg from '/public/Images/footerimg.png';
 function signup() {
   return (
 
-    <div>
+    <div >
     <div  className='flex justify-center mt-6 pt-10 bg-[#f9fafb] max-h-[1200px] max-w-[1150px] mx-auto rounded-xl'>
     <div>
 
@@ -26,7 +26,7 @@ function signup() {
     </div>
   </div>
 
-<div className='pt-28 flex gap-24'>
+<div className='pt-28 md:flex gap-24 '>
 <Image src={Footerimg} />
 
 

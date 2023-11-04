@@ -13,7 +13,7 @@ function Dashboard() {
       <p className="text-center text-black fs-6 fw-normal font-family-Inter  font-semibold">Our Dashboard makes it easy to keep track of your entire day. Save time on repetitive tasks and <br />quickly see where your next potential opportunity lies. </p> 
 
 
-      <div className='flex justify-center gap-14 pt-32'>
+      <div className='md:flex justify-center gap-14 pt-32'>
         <div className='pt-28'>
         <Image className='w-[800px]' src={Pipeline} />
         <Image className='w-[800px]' src={Listing} />
@@ -34,18 +34,18 @@ function Dashboard() {
         <div className="row">
   <div className="col-12 flex justify-center pt-10 pb-7">
     <div className="col-11 row">
-      <div className='flex gap-[500px]'>
+      <div className='flex gap-56 xl:gap-[500px] lg:gap-[500px]'>
         <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">Is there a free trial available?</p>
         <Image className='cursor-pointer' src={Minuscircle} />
       </div>
-      <p className="text-secondary fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 text-gray-500">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, <br />personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+      <p className="fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 text-gray-500 xl:text-[18px] lg:text-[18px]">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, <br />personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
     </div>
     
   </div>
   <hr className="bg-light max-w-[820px] mx-auto pb-6 pt" />
   
 
-  <div className="flex justify-center gap-[518px] pb-7">
+  <div className="flex justify-center gap-56 xl:gap-[500px] lg:gap-[500px] pb-7">
     <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">Can I change my plan later?</p>
     <Image className='cursor-pointer'src={Pluscircle} />
   </div>

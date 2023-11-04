@@ -8,7 +8,7 @@ import Macbook from '/public/Images/Macbook.png';
 function Properties() {
   return (
     <div>
-      <div className="flex justify-center pt-44 gap-20 bg-[#f9f9f9]">
+      <div className="md:flex justify-center pt-44 xl:gap-24 lg:gap-28 bg-[#f9f9f9]">
         <div>
           <p className="font-bold font-family-Poppins text-[25px]">
             Find properties that<br /> match your exact criteria
@@ -45,18 +45,18 @@ function Properties() {
 
 
 
-        <div class="flex justify-center gap-20 pt-32">
-    <div class="position-relative">
-        <div class="top-0 position-absolute">
+        <div className="md:flex  justify-center gap-20 pt-32">
+    <div className="position-relative">
+        <div className="top-0 position-absolute">
         </div>
         <Image src={Macbook} />
     </div>
-    <div class="col-xl-4 align-items-center d-flex">
-        <div class="col-12 row pt-16">
-            <p class="col-8 m-0 px-3 py-2"><span class="text-dark fs-2 fw-bold font-family-Poppins text-[40px] font-bold">A CRM Tailored <br/>to </span><span class="text-danger fs-2 fw-bold font-family-Poppins text-[#d76d3f] text-[40px]  font-bold">Brokers</span></p>
-            <div class="col-12 row d-flex">
-                <p class="text-dark text-md fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">Put the spreadsheets to rest. It’s time to use a tool <br />that helps you keep track of your listings and tenants <br />in one place. Our sophisticated CRM helps you stay <br />on top of your every move.</p>
-                <div class="p-1 bg-danger rounded-5 col-5 justify-content-center align-items-center d-flex">
+    <div className="col-xl-4 align-items-center d-flex">
+        <div className="col-12 row pt-16">
+            <p className="col-8 m-0 px-3 py-2"><span className="text-dark fs-2 fw-bold font-family-Poppins text-[30px] font-bold">A CRM Tailored <br/>to </span><span className="text-danger fs-2 fw-bold font-family-Poppins text-[#d76d3f] text-[30px]  font-bold">Brokers</span></p>
+            <div className="col-12 row d-flex">
+                <p className="text-dark text-md fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 ">Put the spreadsheets to rest. It’s time to use a tool <br />that helps you keep track of your listings and tenants <br />in one place. Our sophisticated CRM helps you stay <br />on top of your every move.</p>
+                <div className="p-1 bg-danger rounded-5 col-5 justify-content-center align-items-center d-flex">
                 <div>
                   <p className="cursor-pointer bg-[#d76d3f]  mt-5 w-[150px] text-white text-xl font-family-Plus flex justify-center rounded-[100px] px-1 py-2">SEE NOW</p>
                   </div>      
