@@ -97,7 +97,7 @@ function signup() {
 </div>
 </div>
 <div>
-   <p className="cursor-pointer bg-[#d76d3f] mt-10 text-white text-xl font-family-Plus flex justify-center rounded-xl px-1 py-2">Get Started</p>
+   <p className="cursor-pointer bg-[#d76d3f] mb-14 mt-10 text-white text-xl font-family-Plus flex justify-center rounded-xl px-1 py-2">Get Started</p>
    </div>
     </div>
      </div>

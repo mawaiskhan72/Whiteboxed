@@ -21,7 +21,7 @@ function Effortless() {
       <p className='pt-5 text-[18px]'>Our curated marketplace makes the search process <br />effortless.  Find the perfect space for your tenants in <br />minutes.</p>
       </div>
       
-      <div  className='flex gap-6'>
+      <div  className='flex gap-6 pt-10'>
       <div>
         <Image src={Mbl1}/>
       </div>
@@ -37,7 +37,7 @@ function Effortless() {
           <Image src={Dots}/>
         </div>
 
-<div className='md:flex justify-center pt-32 gap-40 mt-4 '>
+<div className='md:flex justify-center pt-32 gap-40 mt-10'>
 <div className='bg-[#f1e1da] rounded-[40px]'>
 <Image src={Attachpics}/>
 </div>

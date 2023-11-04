@@ -7,12 +7,12 @@ function Footer() {
   return (
 
     <div className='bg-[#b8623c]'>
-    <div className='bg-[#b8623c] flex gap-40 justify-center pt-24 pb-16'>
+    <div className='bg-[#b8623c] md:flex gap-40 justify-center pt-24 pb-16'>
 
       <div className='text-white flex justify-center gap-20'>
         
     <Image src={Framefooter}></Image>
-    <div className='flex pt-5 justify-center gap-20'>
+    <div className='md:flex pt-5 justify-center gap-20'>
     <p>Home</p>
     <p>Contact us</p>
     <p>Signup</p>
@@ -20,7 +20,7 @@ function Footer() {
     </div>
     </div>
 
-    <div className='pt-4 cursor-pointer'>
+    <div className='pt-4 pl-4 cursor-pointer'>
     <Image src={Social}></Image>
     </div>
 

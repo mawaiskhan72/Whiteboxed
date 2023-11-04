@@ -34,7 +34,7 @@ function Dashboard() {
         <div className="row">
   <div className="col-12 flex justify-center pt-10 pb-7">
     <div className="col-11 row">
-      <div className='flex gap-56 xl:gap-[500px] lg:gap-[500px]'>
+      <div className='flex gap-64 xl:gap-[500px] lg:gap-[500px]'>
         <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">Is there a free trial available?</p>
         <Image className='cursor-pointer' src={Minuscircle} />
       </div>
@@ -45,35 +45,35 @@ function Dashboard() {
   <hr className="bg-light max-w-[820px] mx-auto pb-6 pt" />
   
 
-  <div className="flex justify-center gap-56 xl:gap-[500px] lg:gap-[500px] pb-7">
-    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">Can I change my plan later?</p>
+  <div className="flex justify-center gap-64 xl:gap-[540px] lg:gap-[520px] pb-7">
+    <p className="text-dark font-family-Poppins py-2 text-[20px] font-bold">Can I change my plan later?</p>
     <Image className='cursor-pointer'src={Pluscircle} />
   </div>
 
   <hr className="bg-light max-w-[820px] mx-auto pb-6 pt" />
 
-  <div className="flex justify-center gap-[465px] pb-7">
+  <div className="flex justify-center gap-44 xl:gap-[465px] lg:gap-[520px] pb-7">
     <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">What is your cancellation policy?</p>
     <Image className='cursor-pointer'src={Pluscircle} />
   </div>
 
   <hr className="bg-light max-w-[820px] mx-auto pb-6 pt" />
 
-  <div className="flex justify-center gap-[412px] pb-7">
+  <div className="flex justify-center gap-32 xl:gap-[415px] lg:gap-[520px] pb-7">
     <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">Can other info be added to an invoice?</p>
     <Image className='cursor-pointer'src={Pluscircle} />
   </div>
 
   <hr className="bg-light max-w-[820px] mx-auto pb-6 pt" />
 
-  <div className="flex justify-center gap-[570px] pb-7">
+  <div className="flex justify-center gap-72 xl:gap-[575px] lg:gap-[520px] pb-7">
     <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">How does billing work?</p>
     <Image className='cursor-pointer'src={Pluscircle} />
   </div>
 
   <hr className="bg-light max-w-[820px] mx-auto pb-6 pt" />
 
-  <div className="flex justify-center gap-[450px] pb-7">
+  <div className="flex justify-center gap-40 xl:gap-[450px] lg:gap-[520px] pb-7">
     <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2 text-[20px] font-bold">How do I change my account email?</p>
     <Image className='cursor-pointer'src={Pluscircle} />
   </div>
