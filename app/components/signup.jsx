@@ -42,10 +42,17 @@ function signup() {
                         <div className="col-12 row d-flex rounded-sm">
                             <p className="text-dark fs-6 fw-medium font-family-Poppins font-semibold pb-2 ">Name</p>
                             <div className="px-1 py-1 bg-white shadow border border-1 border-success-subtle col-12 align-items-center rounded-xl">
-                                <div className="col-11 align-items-center d-flex ">
-                                    <p className="text-secondary fs-6 fw-normal font-family-Poppin text-gray-500 pl-3">Your name</p>
-                                </div>
-                            </div>
+
+                            <div className="col-11 align-items-center d-flex">
+                        <input
+                        className="font-family-Poppins text-gray-500 pl-3 border-none outline-none w-full"
+                        type="text"
+                        placeholder="Your Name"
+                         />
+                        </div>
+ 
+                        </div>
+
                         </div>
                  </div>
 
@@ -53,27 +60,40 @@ function signup() {
 <div className="col-12 row d-flex rounded-sm">
     <p className="text-dark fs-6 fw-medium font-family-Poppins font-semibold pb-2 pt-6">Email</p>
     <div className="px-1 py-1 bg-white shadow border border-1 border-success-subtle col-12 align-items-center rounded-xl">
-        <div className="col-11 align-items-center d-flex ">
-            <p className="text-secondary fs-6 fw-normal font-family-Poppin text-gray-500 pl-3">Your Email</p>
-        </div>
-    </div>
+  <div className="col-11 align-items-center d-flex">
+    <input
+      className="font-family-Poppins text-gray-500 pl-3 border-none outline-none w-full"
+      type="email"
+      placeholder="Your Email"
+    />
+  </div>
+</div>
+
 </div>
 
 
 <div className="col-12 row d-flex rounded-sm">
     <p className="text-dark fs-6 fw-medium font-family-Poppins font-semibold pb-2 pt-6">Phone Number</p>
     <div className="px-1 py-1 bg-white shadow border border-1 border-success-subtle col-12 align-items-center rounded-xl">
-        <div className="col-11 align-items-center d-flex ">
-            <p className="text-secondary fs-6 fw-normal font-family-Poppin text-gray-500 pl-3">Your Phone Number</p>
-        </div>
-    </div>
+  <div className="col-11 align-items-center d-flex">
+    <input
+      className="font-family-Poppins text-gray-500 pl-3 border-none outline-none w-full"
+      type="text"
+      placeholder="Your Phone Number"
+    />
+  </div>
+</div>
 </div>
 
 <div className="col-12 row d-flex">
 <p className="text-dark fs-6 fw-medium font-family-Poppins font-semibold pb-2 pt-6">How can we help?</p>
-<div className="px-1 py-1 bg-white rounded-3 shadow border border-1 border-success-subtle col-12 align-items-center">
-<p className="text-secondary fs-6 fw-normal font-family-Poppins text-gray-500 pt-2 pl-3 pb-28 ">Tell us a little about the project...</p>
+<div className="px-1 py-1 bg-white rounded-3 shadow border align-items-center">
+    <input
+        className="font-family-Poppins text-gray-500 pt-2 pl-3 pb-28 border-none outline-none w-full"
+        placeholder="Tell us a little about the project..."
+    />
 </div>
+
 </div>
 </div>
 <div>
